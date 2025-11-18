@@ -2,7 +2,7 @@
 const items = [
   {
     id: 1,
-    title: "Apexcify Cloud",
+    title: "Apexcify Cloud ",
     category: "Cloud",
     desc: "Scalable cloud platform for businesses.",
     img: "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=4b7b7c05ea1c2c3b4b293d5f94c5b7a4"
