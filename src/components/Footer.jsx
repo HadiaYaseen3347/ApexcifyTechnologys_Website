@@ -5,15 +5,22 @@ export default function Footer() {
     <footer className="footer" id="contact">
       <div className="container">
         <div>© {new Date().getFullYear()} Apexcify Technologys — All rights reserved</div>
-        <div className="socials">
-          <div>
-            <a href="#!" aria-label="Twitter"><img src="./twitter.png" alt="Twitter" style={{ width: 28, height: 28 ,borderRadius: "50%"}} /></a>
-          </div>
-          <div>
-            <a href="https://www.linkedin.com/company/apexcifytechnologys/" aria-label="LinkedIn"><img src="./linkedin.png" alt="Twitter" style={{ width: 28, height: 28 ,borderRadius: "50%"}} /></a>
-          </div>
+        <div className="socials" style={{ display: "flex", gap: "15px", marginTop: "10px" }}>
           
-          
+          <div>
+            <a 
+              href="https://www.linkedin.com/company/apexcifytechnologys/" 
+              aria-label="LinkedIn" 
+              style={{ 
+                color: "#0077B5", // LinkedIn blue
+                fontWeight: "bold",
+                textDecoration: "none",
+                fontSize: "18px"
+              }}
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
       </div>
     </footer>
