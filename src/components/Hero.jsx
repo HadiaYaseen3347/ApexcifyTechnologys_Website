@@ -18,7 +18,7 @@ export default function Hero() {
         {/* Replace the text box with your logo */}
         <div className="hero-art">
           <img
-            src="./src/logo.png"
+            src="./logo.png"
             style={{borderRadius: "100%"}}
             alt="Apexcify Technologies Logo"
             className="hero-logo"
